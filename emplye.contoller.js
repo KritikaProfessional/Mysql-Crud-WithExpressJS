@@ -1,4 +1,4 @@
-const Employee = require("../models/employee.module");
+const Employee = require("./employee.module");
 
 exports.findAll = function(req, res) {
 

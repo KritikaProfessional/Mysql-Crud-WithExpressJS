@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const employeeController =   require('../controller/emplye.contoller');
+const employeeController =   require('./emplye.contoller');
 // Retrieve all employees
 router.get('/', employeeController.findAll);
 // Create a new employee

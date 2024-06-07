@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.send("Hello World");
 });
 // Require employee routes
-const employeeRoutes = require('./src/routes/employee.routes')
+const employeeRoutes = require('./employee.routes')
 // using as middleware
 app.use('/api/v1/employees', employeeRoutes)
 // listen for requests
